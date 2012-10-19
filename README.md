@@ -1,4 +1,3 @@
-simple_cms
-==========
+# Ruby on Rails simple_cms
 
-Ruby on Rails First App
+This is the first application for the [*Ruby on Rails tutorial/Lynda] by [Rafael Rabelo] 

@@ -14,8 +14,8 @@ development:
   reconnect: false
   database: simple_cms_development
   pool: 5
-  username: root
-  password: gremlint13
+  username: simple_cms
+  password: simple_cms
   host: 127.0.0.1
 
 # Warning: The database defined as "test" will be erased and
