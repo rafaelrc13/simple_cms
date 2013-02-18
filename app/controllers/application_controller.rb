@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
+<<<<<<< HEAD
 
 	protected
 
@@ -13,4 +14,6 @@ class ApplicationController < ActionController::Base
   	end
   end
 	  
+=======
+>>>>>>> 746d86639f4946d671a38db8dc44fd342d4e29b7
 end

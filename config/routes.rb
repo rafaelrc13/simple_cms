@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 SimpleCms::Application.routes.draw do 
   
   root :to => "public#index"
@@ -8,6 +9,14 @@ SimpleCms::Application.routes.draw do
 
   # get "demo/index"
 
+=======
+SimpleCms::Application.routes.draw do
+  #get "demo/index"
+
+  #get "welcome/index"
+  root :to => 'demo#index'
+  
+>>>>>>> 746d86639f4946d671a38db8dc44fd342d4e29b7
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -39,7 +48,10 @@ SimpleCms::Application.routes.draw do
   #     resources :comments, :sales
   #     resource :seller
   #   end
+<<<<<<< HEAD
 
+=======
+>>>>>>> 746d86639f4946d671a38db8dc44fd342d4e29b7
   # Sample resource route with more complex sub-resources
   #   resources :products do
   #     resources :comments
@@ -57,7 +69,10 @@ SimpleCms::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
+<<<<<<< HEAD
   # root :to => 'welcome#index'
+=======
+>>>>>>> 746d86639f4946d671a38db8dc44fd342d4e29b7
 
   # See how all your routes lay out with "rake routes"
 

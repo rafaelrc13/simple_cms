@@ -20,7 +20,11 @@ SimpleCms::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+<<<<<<< HEAD
   # Defaults to nil and saved in location specified by config.assets.prefix
+=======
+  # Defaults to Rails.root.join("public/assets")
+>>>>>>> 746d86639f4946d671a38db8dc44fd342d4e29b7
   # config.assets.manifest = YOUR_PATH
 
   # Specifies the header that your server uses for sending files

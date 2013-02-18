@@ -15,7 +15,11 @@ development:
   database: simple_cms_development
   pool: 5
   username: simple_cms
+<<<<<<< HEAD
   password: secret
+=======
+  password: simple_cms
+>>>>>>> 746d86639f4946d671a38db8dc44fd342d4e29b7
   host: 127.0.0.1
 
 # Warning: The database defined as "test" will be erased and
@@ -28,7 +32,11 @@ test:
   database: simple_cms_test
   pool: 5
   username: root
+<<<<<<< HEAD
   password:
+=======
+  password: gremlint13
+>>>>>>> 746d86639f4946d671a38db8dc44fd342d4e29b7
   host: 127.0.0.1
 
 production:
@@ -38,5 +46,9 @@ production:
   database: simple_cms_production
   pool: 5
   username: root
+<<<<<<< HEAD
   password:
+=======
+  password: gremlint13
+>>>>>>> 746d86639f4946d671a38db8dc44fd342d4e29b7
   host: 127.0.0.1

@@ -1,4 +1,5 @@
 module ApplicationHelper
+<<<<<<< HEAD
 
 	def status_tag(boolean, options={}) 
 		options[:true]        ||= ""
@@ -17,4 +18,6 @@ module ApplicationHelper
 		render :partial => "shared/error_messages", :locals => {:object => object}
 	end
 
+=======
+>>>>>>> 746d86639f4946d671a38db8dc44fd342d4e29b7
 end

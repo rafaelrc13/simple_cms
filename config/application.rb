@@ -16,7 +16,11 @@ module SimpleCms
     # -- all .rb files in that directory are automatically loaded.
 
     # Custom directories with classes and modules you want to be autoloadable.
+<<<<<<< HEAD
       config.autoload_paths += %W(#{config.root}/lib)
+=======
+    # config.autoload_paths += %W(#{config.root}/extras)
+>>>>>>> 746d86639f4946d671a38db8dc44fd342d4e29b7
 
     # Only load the plugins named here, in the order given (default is alphabetical).
     # :all can be used as a placeholder for all plugins not explicitly named.
@@ -39,9 +43,12 @@ module SimpleCms
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
 
+<<<<<<< HEAD
     # Enable escaping HTML in JSON.
     config.active_support.escape_html_entities_in_json = true
 
+=======
+>>>>>>> 746d86639f4946d671a38db8dc44fd342d4e29b7
     # Use SQL instead of Active Record's schema dumper when creating the database.
     # This is necessary if your schema can't be completely dumped by the schema dumper,
     # like if you have constraints or database-specific column types
@@ -51,15 +58,22 @@ module SimpleCms
     # This will create an empty whitelist of attributes available for mass-assignment for all models
     # in your app. As such, your models will need to explicitly whitelist or blacklist accessible
     # parameters by using an attr_accessible or attr_protected declaration.
+<<<<<<< HEAD
     config.active_record.whitelist_attributes = true
+=======
+    # config.active_record.whitelist_attributes = true
+>>>>>>> 746d86639f4946d671a38db8dc44fd342d4e29b7
 
     # Enable the asset pipeline
     config.assets.enabled = true
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+<<<<<<< HEAD
 
     # Enable portuguese translation
     config.i18n.default_locale = "pt-BR"
+=======
+>>>>>>> 746d86639f4946d671a38db8dc44fd342d4e29b7
   end
 end
